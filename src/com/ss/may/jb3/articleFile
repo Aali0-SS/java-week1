@@ -1,0 +1,8 @@
+Avoid Misleading Names
+When programming its imperative to avoid names that obscure the code’ meaning. As shown above, when using an acronym or shortening a word, it can lead to a misinterpretation of what that code is for. So its best practice to be aware of the reserved names in your programming language, as well as any common acronyms to not cause misinformation.
+
+Another example is an array named staffList which is a random group of new hire employees. This is problematic because we use the word list in the name, when the array itself is not a list. The name should be something like newHireGroup or just newHires, this makes it clearer and does not mislead other programmers.
+
+Further, using names that vary just slightly should be avoided as well. If you have a variable named quantityOfOnHandInventory and another named quantityOfOffHandInventory, this is not ideal. The small variant can be easily overlooked so names should always be distinct.
+
+Making the names distinct should be meaningful as well, not just work arounds to satisfy your scope restrictions.
