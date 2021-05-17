@@ -1,0 +1,20 @@
+Which class would you use to store your birthday in years, months, days, seconds, and nanoseconds?
+	LocalDateTime class
+	
+Given a random date, how would you find the date of the previous Thursday?
+	The previous method of a TemporalAdjuster can be used.
+	
+What is the difference between a ZoneId and a ZoneOffset?
+	Both track an offset from Greenwich/UTC time, but ZoneOffset tracks the absolute offset from Greenwich/UTC. The ZoneId alse uses the ZOneRules to determine how an offset varies for a particular time of year/region.
+
+How would you convert an Instant to a ZonedDateTime? How would you convert a ZonedDateTime to an Instant?
+	By using the ZonedDateTime.ofInstant method, a ZoneID must also be supplied.
+	
+Write an example that, for a given year, reports the length of each month within that year.
+	Check example in MonthsInYear.java
+	
+Write an example that, for a given month of the current year, lists all of the Mondays in that month.
+	Check example in ListMondays.java
+	
+Write an example that tests whether a given date occurs on Friday the 13th.
+	Check example in FridayThirteen.java
